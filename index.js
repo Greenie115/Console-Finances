@@ -87,8 +87,22 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
-console.log("Financial Analysis\n-------------------");
-
 //total months
-console.log("Total Monthes:" , finances.length)
+console.log("Total Months:" , finances.length)
 
+//empty var for the total amount made
+var sum = 0
+
+// for loop to iterate through the array and add up the 2nd value
+for(var i = 0; i < finances.length; i++ ){
+  var line_i = finances[i]
+  sum = sum + line_i[1]
+}
+
+//average change
+for(var i = 0; i < finances.length; i++){
+  
+}
+
+//final log 
+console.log("Financial Analysis\n-------------------\n Total: $" + sum);
