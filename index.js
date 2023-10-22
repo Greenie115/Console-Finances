@@ -113,7 +113,7 @@ for(var i = 0; i < finances.length; i++ ){//iterating through the array
       greatestDecrease = totalChange
       greatestDecreaseMonth = finances[i][0]
     };
-}
+};
 
 averageChange = total / (finances.length - 1);//averaging equations for Average Change
 averageChangeRounded = Math.round(averageChange * 100) / 100;//Rounding the average change to the nearest 100th
